@@ -1,17 +1,37 @@
-.App {
-  text-align: center;
+.profile{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:100vw;
+}
+.dash > * {
+  flex: 0 0 calc(33.33% - 8px); /* Adjust the width based on the number of items and gap */
+  /* flex-basis: calc(33.33% - 8px); /* Alternatively, you can use flex-basis */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.dash{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  height:100vh;
+flex-wrap: wrap;
+padding:4;
+  gap:2;
+}
+.chart{
+  display: flex;
+  flex-direction: column;
+
+}
+.custom-link {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Change color to your desired color */
+}
+.errorMsg{
+  color:#c62828;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
