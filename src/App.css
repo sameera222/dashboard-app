@@ -1,37 +1,34 @@
-.profile{
-  display:flex;
+.profile {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width:100vw;
+  width: 100vw;
 }
 .dash > * {
-  flex: 0 0 calc(33.33% - 8px); /* Adjust the width based on the number of items and gap */
-  /* flex-basis: calc(33.33% - 8px); /* Alternatively, you can use flex-basis */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  flex: 0 0 calc(33.33% - 8px);
+  box-sizing: border-box;
 }
-.dash{
-  display:flex;
+.dash {
+  display: flex;
   justify-content: flex-start;
   align-items: center;
-  height:100vh;
-flex-wrap: wrap;
-padding:4;
-  gap:2;
+  height: 100vh;
+  flex-wrap: wrap;
+  padding: 4;
+  gap: 2;
 }
-.chart{
+.chart {
   display: flex;
   flex-direction: column;
-
 }
 .custom-link {
-  text-decoration: none; /* Remove underline */
-  color: #fff; /* Change color to your desired color */
+  text-decoration: none;
+  color: #fff;
 }
-.errorMsg{
-  color:#c62828;
+.errorMsg {
+  color: #c62828;
 }
-
 
 .App-header {
   background-color: #282c34;
